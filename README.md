@@ -6,7 +6,7 @@
 <p align="center"><a href="#">
     <img alt="Join the chat" src="https://bdprescription.com/npm-package/JoinChat.svg"></a>
     <a href="https://www.linkedin.com/in/bulbulsarker/" target="_blank">
-    <img alt="Linkedin Follow" src="https://bdprescription.com/npm-package/linkedin.svg" style="height: 13px; border: 1px solid #878ae5; padding: 3px; border-radius: 4px; ">
+    <img alt="Linkedin Follow" src="https://bdprescription.com/npm-package/linkedin.svg" style="height: 18px;">
   </a>
 </p>  
 <p align="center"><a href="#" target="_blank"><img alt="NPM stats" src="https://bdprescription.com/npm-package/install.png"></a></p>
