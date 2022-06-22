@@ -1,6 +1,6 @@
 {
   "name": "bl2-js-reports",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Is the js reporter?",
   "main": "index.js",
   "scripts": {
