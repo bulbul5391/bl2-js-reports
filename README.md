@@ -1,4 +1,4 @@
-# bl2-js-reports
+# bl2-js-report
 
 <p align="center"><img src="https://bdprescription.com/npm-package/01.svg" height="200px" align="center" alt="JS Beautifier"></p>
 
@@ -14,14 +14,14 @@
   ## Installation
 
   ```
-npm i bl2-js-reports
+npm i bl2-js-report
 ```
 
 ## 💞️ Basic Usage
 
 ## Add line in component file
 ```
-import * as bl2Js from 'bl2-js-reports';
+import * as bl2Js from 'bl2-js-report';
 ```
 
 ## In html page
@@ -38,7 +38,7 @@ downloadPdf() {
         this.data['userDetails'] = JSON.stringify(this.userData);
         this.data['isInstitutional'] = JSON.stringify(this.isInstitutional);
         this.data['name'] = JSON.stringify(this.name);
-        
+
         //Optional
         this.data['view'] = 0; // 0 = false or 1 = true
         this.data['print_r'] = 0; // 0 = false or 1 = true
