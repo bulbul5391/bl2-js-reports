@@ -31,14 +31,17 @@ import * as bl2Js from 'bl2-js-reports';
 
 ## In js or ts file
 ```
-downloadPdf($fileName = '') {
-        this.data['fileName'] = $fileName;
-        this.data['templateName'] = 'ti-reports/Researcher-Profile-Information';
-        this.data['lng'] = localStorage.getItem("currentLang");
+downloadPdf() {
+        this.data['fileName'] = 'save-file-name';
+        this.data['templateName'] = 'ti-reports/Researcher-Profile-Information'; //file path       
         this.data['data'] = JSON.stringify(this.data);
         this.data['userDetails'] = JSON.stringify(this.userData);
         this.data['isInstitutional'] = JSON.stringify(this.isInstitutional);
         this.data['name'] = JSON.stringify(this.name);
+        
+        //Optional
+        this.data['view'] = 0; // 0 = false or 1 = true
+        this.data['print_r'] = 0; // 0 = false or 1 = true
         let actionUrl = `${reportBackend}/pdf-generate-post`;
         bl2Js(this.data, actionUrl);
     }
