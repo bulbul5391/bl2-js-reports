@@ -9,7 +9,7 @@
     <img alt="Linkedin Follow" src="https://bdprescription.com/npm-package/linkedins.svg">
   </a>
 </p>  
-<p align="center"><a href="#" target="_blank"><img alt="NPM stats" src="https://bdprescription.com/npm-package/install.png"></a></p>
+<p align="center"><a href="#" target="_blank"><img alt="NPM stats" src="https://bdprescription.com/npm-package/install-01.png"></a></p>
   
   ## Installation
 
