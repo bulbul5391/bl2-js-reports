@@ -11,10 +11,16 @@
 </p>  
 <p align="center"><a href="#" target="_blank"><img alt="NPM stats" src="https://bdprescription.com/npm-package/install-01.png"></a></p>
   
-  ## Installation
+## Installation
 
-  ```
+```
 npm i bl2-js-report
+```
+
+## Uninstall
+
+```
+npm uninstall bl2-js-report
 ```
 
 ## 💞️ Basic Usage
